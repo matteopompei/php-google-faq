@@ -10,17 +10,20 @@ body {
   color: hsl(0, 0%, 10%);
 }
 
+/* Header */
+
 .logo {
   display: block;
   margin-bottom: 30px;
   padding-left: 80px;
   background: url("./googlelogo.svg") no-repeat left center;
   font-size: 1.4rem;
+  letter-spacing: -1px;
 }
 
 header {
   padding: 15px 20px;
-  border-bottom: 1px solid hsl(0, 0%, 40%);
+  border-bottom: 1px solid hsl(0, 0%, 80%);
   font-family: "Open Sans", sans-serif;
   color: hsl(0, 0%, 40%);
 }
@@ -54,8 +57,52 @@ header nav a {
   border-bottom: 3px solid #3367d6;
 }
 
-.title {
+/* Main */
+main {
+  font-size: 0.9rem;
+  line-height: 1.8rem;
+}
+
+main a {
+  color: #2962ff;
+  text-decoration: none;
+}
+
+main .container {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 1000px;
+}
+
+main .title {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 30px;
+}
+
+main .subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+}
+
+main p {
+  padding-bottom: 30px;
+}
+
+main ol {
+  margin-left: 15px;
+}
+
+main ol > li {
+  padding-left: 15px;
+  margin: 10px 0;
+}
+
+main ol > ol {
+  list-style: lower-alpha;
 }
