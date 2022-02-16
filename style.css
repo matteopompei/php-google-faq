@@ -4,7 +4,58 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  color: hsl(0, 0%, 10%);
+}
+
+.logo {
+  display: block;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  background: url("./googlelogo.svg") no-repeat left center;
+  font-size: 1.4rem;
+}
+
+header {
+  padding: 15px 20px;
+  border-bottom: 1px solid hsl(0, 0%, 40%);
+  font-family: "Open Sans", sans-serif;
+  color: hsl(0, 0%, 40%);
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header nav ul li:first-child {
+  margin-left: 0;
+}
+
+header nav a {
+  padding-bottom: 12px;
+}
+
+.active {
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+}
+
 .title {
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 }
